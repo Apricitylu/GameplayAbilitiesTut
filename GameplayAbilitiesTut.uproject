@@ -7,7 +7,10 @@
 		{
 			"Name": "GameplayAbilitiesTut",
 			"Type": "Runtime",
-			"LoadingPhase": "Default"
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"GameplayTasks"
+			]
 		}
 	],
 	"Plugins": [
